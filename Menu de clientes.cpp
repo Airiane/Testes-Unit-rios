@@ -64,10 +64,12 @@ main()
 				if(cont==0){
 					printf("\nNenhum cliente cadastrado.");
 				}
+				else{
 				for(i=0;i<cont;i++){
 					printf("\nNome: %s ",cliente[i].nome);
 					printf("\nCodigo: %d", cliente[i].id);
 				}
+			}
 				break;
 		}
 	}while(Op!=5);
